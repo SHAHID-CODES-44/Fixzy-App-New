@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://your-username.github.io/repo-name",
+"homepage": "https://shahid-codes-44.github.io/Fixzy-App-New",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
