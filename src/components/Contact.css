@@ -1,0 +1,95 @@
+/* Contact Form Container */
+#container {
+    max-width: 600px;
+    width: 90%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: auto;
+}
+
+/* Title */
+#title {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styles */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button */
+#submit-button {
+    width: 100%;
+    padding: 10px;
+    background: #018dff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out;
+}
+#backbtn1{
+    width: 100%;
+    padding: 10px;
+    background: #018dff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out;
+}
+#submit-button:hover {
+    background: #0098fd;
+}
+#callus1{
+    width: 100%;
+    padding: 10px;
+    background: #018dff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out;
+}
+/* Responsive Design */
+@media (max-width: 480px) {
+    #container {
+        padding: 15px;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #submit-button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

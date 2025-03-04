@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    width: 100%;
+    height: 1in;
+    background-color: rgb(71, 55, 249);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#inp1 {
+    width: 50%;
+    height: 1.2cm;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    color: grey;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#navbar a {
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+.part1 {
+    width: 90%;
+    height: 2.5in;
+    border: none;
+    margin-top: 2cm;
+    margin-left: 1.6cm;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(199, 199, 199);
+    line-height: 1.8cm;
+    padding-left: 30px;
+}
+
+#t2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#t1 {
+    font-size: 25px;
+    color: grey;
+}
+
+#btn1 {
+    width: 2.5in;
+    height: 1.3cm;
+    background-color: rgb(71, 55, 249);
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#ourproduct {
+    width: 2.2in;
+    height: 1.3cm;
+    background-color: rgb(71, 55, 249);
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#t3 {
+    margin-left: 1.6cm;
+    margin-top: 50px;
+}
+
+#services {
+    width: 90%;
+    height: 1in;
+    border: none;
+    margin-top: 40px;
+    margin-left: 0.4rem;
+    line-height: 1.8cm;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#card1 {
+    width: 2.5in;
+    height: 1.4in;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(199, 199, 199);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    padding-top: 30px;
+}
+
+#t4 {
+    margin-left: 1.6cm;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#services2 {
+    width: 90%;
+    height: 1in;
+    border: none;
+    margin-top: 55px;
+    margin-left: 10px;
+    line-height: 2rem;
+    padding-left: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#services2 button {
+    width: 75%;
+    height: 1cm;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#services2 p {
+    color: blue;
+    margin-top: 15px;
+}
+
+#card2 {
+    width: 3.3in;
+    height: 1.7in;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(199, 199, 199);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#footer {
+    width: 100%;
+    height: 3.5in;
+    border: none;
+    background-color: rgb(26, 26, 46);
+    margin-top: 1in;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* hoiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+.logo2 {
+    line-height: 1.5rem;
+}
+
+#font4 {
+    font-size: 40px;
+}
+
+.links1 {
+    line-height: 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.links2 {
+    line-height: 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+hr {
+    color: white;
+    font-weight: 600;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    #navbar h2 {
+        margin: 10px 0;
+    }
+
+    #inp1 {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .part1 {
+        width: 90%;
+        height: auto;
+        margin: 1cm auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #t2 {
+        font-size: 30px;
+    }
+
+    #t1 {
+        font-size: 18px;
+    }
+
+    #btn1, #ourproduct {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #services, #services2 {
+        flex-direction: column;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    #card1, #card2 {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    #footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo2, .links1, .links2 {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
